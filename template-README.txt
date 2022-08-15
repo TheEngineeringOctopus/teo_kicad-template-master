@@ -12,6 +12,8 @@ git clone --bare git@github.com:TheEngineeringOctopus/teo_kicad-template-master.
 cd TEMP_TEO_kicad-template
 git push --mirror git@github.com:TheEngineeringOctopus/TEOXXXX.git
 
+(you might need to run:  ```eval "$(ssh-agent -s)"''' and ``` ssh-add.exe ~/.ssh/TEO/id_ed25519'''
+
 
 4) Remove the temporary local repository you created earlier;
 
