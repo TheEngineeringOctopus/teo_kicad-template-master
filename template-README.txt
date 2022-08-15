@@ -22,6 +22,4 @@ rm -rf TEMP_TEO_kicad-template
 
 5) Then clone the new templated PCB design as normal from Github!
 
-
-
-TODO: may need to delete unused branches from the template if you don't want them. Could have some way of doing auto, e.g. clone above only using single 'master' branch?
+6) Run ```git submodule update --init''' to pull the submodule lib contents
